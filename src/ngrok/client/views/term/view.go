@@ -2,7 +2,7 @@
 package term
 
 import (
-	termbox "github.com/nsf/termbox-go"
+	termbox "hub.fastgit.org/nsf/termbox-go"
 	"ngrok/client/mvc"
 	"ngrok/log"
 	"ngrok/proto"
