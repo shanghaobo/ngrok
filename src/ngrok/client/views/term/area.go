@@ -3,7 +3,7 @@ package term
 
 import (
 	"fmt"
-	termbox "github.com/nsf/termbox-go"
+	termbox "hub.fastgit.org/nsf/termbox-go"
 )
 
 const (
