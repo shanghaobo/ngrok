@@ -19,7 +19,7 @@ client: deps
 assets: client-assets server-assets
 
 bin/go-bindata:
-	export GOPROXY=https://proxy.golang.com.cn,direct
+	export GOPROXY=https://goproxy.cn
 	GOOS="" GOARCH="" go get github.com/jteeuwen/go-bindata/go-bindata
 
 client-assets: bin/go-bindata
